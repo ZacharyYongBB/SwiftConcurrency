@@ -11,6 +11,7 @@
 		B6853397299809130088060C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6853396299809130088060C /* ContentView.swift */; };
 		B6853399299809140088060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6853398299809140088060C /* Assets.xcassets */; };
 		B685339C299809140088060C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B685339B299809140088060C /* Preview Assets.xcassets */; };
+		B68533A329980AB50088060C /* DoCatchTryThrowsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68533A229980AB50088060C /* DoCatchTryThrowsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B6853396299809130088060C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6853398299809140088060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B685339B299809140088060C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B68533A229980AB50088060C /* DoCatchTryThrowsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B6853394299809130088060C /* SwiftConcurrencyApp.swift */,
 				B6853396299809130088060C /* ContentView.swift */,
+				B68533A229980AB50088060C /* DoCatchTryThrowsExample.swift */,
 				B6853398299809140088060C /* Assets.xcassets */,
 				B685339A299809140088060C /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				B6853397299809130088060C /* ContentView.swift in Sources */,
 				B6853395299809130088060C /* SwiftConcurrencyApp.swift in Sources */,
+				B68533A329980AB50088060C /* DoCatchTryThrowsExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
