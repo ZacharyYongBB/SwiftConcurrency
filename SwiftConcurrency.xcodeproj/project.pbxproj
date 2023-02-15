@@ -14,6 +14,7 @@
 		B68533A329980AB50088060C /* DoCatchTryThrowsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68533A229980AB50088060C /* DoCatchTryThrowsExample.swift */; };
 		B68533A5299944E60088060C /* AsyncDownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68533A4299944E50088060C /* AsyncDownloadImage.swift */; };
 		B68533A7299BEE070088060C /* AsyncAwaitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68533A6299BEE070088060C /* AsyncAwaitExample.swift */; };
+		B68533A9299D34FC0088060C /* TaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68533A8299D34FC0088060C /* TaskExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B68533A229980AB50088060C /* DoCatchTryThrowsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsExample.swift; sourceTree = "<group>"; };
 		B68533A4299944E50088060C /* AsyncDownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDownloadImage.swift; sourceTree = "<group>"; };
 		B68533A6299BEE070088060C /* AsyncAwaitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitExample.swift; sourceTree = "<group>"; };
+		B68533A8299D34FC0088060C /* TaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B6853396299809130088060C /* ContentView.swift */,
 				B68533A229980AB50088060C /* DoCatchTryThrowsExample.swift */,
 				B68533A6299BEE070088060C /* AsyncAwaitExample.swift */,
+				B68533A8299D34FC0088060C /* TaskExample.swift */,
 				B68533A4299944E50088060C /* AsyncDownloadImage.swift */,
 				B6853398299809140088060C /* Assets.xcassets */,
 				B685339A299809140088060C /* Preview Content */,
@@ -151,6 +154,7 @@
 				B6853397299809130088060C /* ContentView.swift in Sources */,
 				B6853395299809130088060C /* SwiftConcurrencyApp.swift in Sources */,
 				B68533A329980AB50088060C /* DoCatchTryThrowsExample.swift in Sources */,
+				B68533A9299D34FC0088060C /* TaskExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

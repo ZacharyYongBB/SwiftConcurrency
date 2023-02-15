@@ -31,7 +31,10 @@ class AsyncAwaitExampleViewModel: ObservableObject {
     
     func addAuthor1() async {
         let author1 = "Author1 : \(Thread())"
-        self.dataArray.append(author1)
+        
+        await MainActor.run(body: {
+            self.dataArray.append(author1)
+        })
         
         try? await Task.sleep(nanoseconds: 2_000_000_000)
         
